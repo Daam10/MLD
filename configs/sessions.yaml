@@ -1,0 +1,24 @@
+topics: {A: alcohol, O: deception, K: conflict}
+conditions: [honest, prepared_lie, unprepared_lie]
+
+sources:
+  day1:
+    video_zip: ../Исходные данные/2_30.zip
+    bio_zip: ../Исходные данные/Нейронет_30_сентября_группа_2.zip
+  day2:
+    video_zip: new/3_7.zip
+    bio_zip: new/БиоРадио.zip
+
+sessions:
+  s01: {video: 00001.MTS, scenario: AOK, sex: M, source: day1}
+  s02: {video: 00002.MTS, scenario: KAO, sex: M, source: day1}
+  s04: {video: 00004.MTS, scenario: OKA, sex: M, source: day1}
+  s05: {video: 00005.MTS, scenario: OKA, sex: F, source: day1}
+  s06: {video: 00006.MTS, scenario: OKA, sex: M, source: day1}
+  s07: {video: 00007.MTS, scenario: AOK, sex: M, source: day1}
+  s08: {video: 00008.MTS, scenario: AOK, sex: M, source: day1}
+  s09: {video: 00009.MTS, scenario: AOK, sex: F, source: day1}
+  s10: {video: 00010.MTS, scenario: AOK, sex: M, source: day1}
+  s14: {video: 00014.MTS, scenario: AOK, sex: M, source: day2}
+
+defaults: {age: 23}

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+data/*
+!data/README.md
+configs/*.local.yaml
+outputs/
+hf.token
+.env
+models/
+new/

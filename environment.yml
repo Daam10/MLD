@@ -1,0 +1,14 @@
+name: lie-detector
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ffmpeg
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.8.0
+      - torchaudio==2.8.0
+      - torchvision==0.23.0
+      - -r requirements.txt
+      - -e .

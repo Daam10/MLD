@@ -1,0 +1,28 @@
+paths:
+  interim_dir: data/interim
+  processed_dir: data/processed
+  labels_dir: data/processed/labeling-labeled
+  l34_xlsx: ../Исходные данные/Результаты.xlsx
+  hf_token_file: ../hf.token
+
+media:
+  audio_sr_asr: 16000
+  audio_sr_prosody: 48000
+  proxy_height: 720
+  proxy_fps: 25
+
+bio:
+  hrv_window_s: 120
+  hrv_step_s: 5
+
+asr:
+  model: large-v3
+  language: ru
+  batch_size: 16
+  compute_type: float16
+  diarization_model: pyannote/speaker-diarization-community-1
+  num_speakers: 2
+
+llm:
+  endpoint: http://localhost:1234/v1
+  model: gemma-4-26b-a4b-it
